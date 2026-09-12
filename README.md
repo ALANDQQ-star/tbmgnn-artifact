@@ -23,6 +23,7 @@ chmod +x install.sh py.sh claims/*.sh claims/*/run.sh optional/*/run.sh
 ./claims/search/run.sh
 ./claims/ctu/run.sh
 ./claims/transfer/run.sh
+./claims/table5/run.sh
 ./claims/ablation/run.sh
 ```
 
