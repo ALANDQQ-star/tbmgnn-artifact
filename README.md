@@ -50,7 +50,7 @@ cat tbmgnn_artifact.tar.gz.part-* > tbmgnn_artifact.tar.gz
 sha256sum -c tbmgnn_artifact.tar.gz.sha256
 tar -xzf tbmgnn_artifact.tar.gz
 cd artifacts
-chmod +x install.sh py.sh run_all.sh selftest.sh claims/*.sh claims/*/run.sh optional/*/run.sh
+chmod +x install.sh py.sh run_all.sh selftest.sh claims/*.sh claims/*/run.sh optional/*/*.sh
 ./install.sh
 ./run_all.sh
 ```
